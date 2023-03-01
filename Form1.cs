@@ -8,6 +8,7 @@ namespace TAP_Intro
     {
         //Objetos de entonro global
         SecondForm secondForm = new SecondForm();
+        ThirdForm thirdForm = new ThirdForm();
         public frmInicio()
         {
             InitializeComponent();
@@ -100,8 +101,11 @@ namespace TAP_Intro
         }
 
         private void cbTwoForms_CheckedChanged(object sender, EventArgs e)
-        {            
-                        
+        {
+            if (cbTwoForms.Checked == true)
+            {
+                thirdForm.Show();
+            }
         }
 
         private void cbOneForm_CheckedChanged(object sender, EventArgs e)

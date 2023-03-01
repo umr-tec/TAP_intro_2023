@@ -19,7 +19,7 @@ namespace TAP_Intro
         private void SecondForm_Click(object sender, EventArgs e)
         {
             //Deshabilitar un evento
-            this.MouseMove += new MouseEventHandler(this.SecondForm_MouseMove); ;
+            this.MouseMove += new MouseEventHandler(this.SecondForm_MouseMove); 
         }
 
         private void SecondForm_FormClosing(object sender, FormClosingEventArgs e)

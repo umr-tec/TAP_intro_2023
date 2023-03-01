@@ -59,6 +59,12 @@
     <Compile Include="SecondForm.Designer.cs">
       <DependentUpon>SecondForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ThirdForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThirdForm.Designer.cs">
+      <DependentUpon>ThirdForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -74,6 +80,9 @@
     </Compile>
     <EmbeddedResource Include="SecondForm.resx">
       <DependentUpon>SecondForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThirdForm.resx">
+      <DependentUpon>ThirdForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
