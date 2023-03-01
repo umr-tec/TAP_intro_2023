@@ -1,0 +1,11 @@
+C:\Users\ulise\source\repos\TAP_Intro\bin\Debug\TAP_Intro.exe.config
+C:\Users\ulise\source\repos\TAP_Intro\bin\Debug\TAP_Intro.exe
+C:\Users\ulise\source\repos\TAP_Intro\bin\Debug\TAP_Intro.pdb
+C:\Users\ulise\source\repos\TAP_Intro\obj\Debug\TAP_Intro.csproj.AssemblyReference.cache
+C:\Users\ulise\source\repos\TAP_Intro\obj\Debug\TAP_Intro.Properties.Resources.resources
+C:\Users\ulise\source\repos\TAP_Intro\obj\Debug\TAP_Intro.csproj.GenerateResource.cache
+C:\Users\ulise\source\repos\TAP_Intro\obj\Debug\TAP_Intro.csproj.CoreCompileInputs.cache
+C:\Users\ulise\source\repos\TAP_Intro\obj\Debug\TAP_Intro.exe
+C:\Users\ulise\source\repos\TAP_Intro\obj\Debug\TAP_Intro.pdb
+C:\Users\ulise\source\repos\TAP_Intro\obj\Debug\TAP_Intro.frmInicio.resources
+C:\Users\ulise\source\repos\TAP_Intro\obj\Debug\TAP_Intro.SecondForm.resources
