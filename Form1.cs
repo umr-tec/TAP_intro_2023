@@ -12,8 +12,29 @@ namespace TAP_Intro
         public frmInicio()
         {
             InitializeComponent();
-            //Modificar el tamaño de la forma
-            Thread nweq = new Thread(new ThreadStart(hilop));
+         
+            //Agregar un icono al Form
+            this.Icon = Properties.Resources.tecsanpedro_solo;
+            //Agregar Controles 
+            TextBox txt1 = new TextBox();
+            Button btn1 = new Button();
+
+            //Catracteeristivcas a los controles 
+            txt1.Name = "txtTexto1";
+            txt1.Width = 130;
+            txt1.Height = 40;
+            txt1.Text = "Ingresa valor";
+            txt1.Multiline = true;
+            txt1.Location = new Point(300, 20);
+            //
+            btn1.Name = "btnEnviarValores";
+            btn1.Width = 80;
+            btn1.Height = 40;
+            btn1.Text = "Enviar";
+            btn1.FlatStyle = FlatStyle.Flat;
+            btn1.Location = new Point(350, 60);
+            this.Controls.Add(txt1);
+            this.Controls.Add(btn1);
         }
         public void hilop() {
             this.WindowState = FormWindowState.Normal;

@@ -14,6 +14,7 @@ namespace TAP_Intro
         {
             InitializeComponent();
             colores = true;
+            this.Icon = Properties.Resources.tecsanpedro_solo;
         }
 
         private void SecondForm_Click(object sender, EventArgs e)

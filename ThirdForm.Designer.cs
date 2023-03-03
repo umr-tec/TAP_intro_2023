@@ -30,6 +30,7 @@ namespace TAP_Intro
         private void InitializeComponent()
         {
             this.btnClickMe = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnClickMe
@@ -44,20 +45,31 @@ namespace TAP_Intro
             this.btnClickMe.UseVisualStyleBackColor = true;
             this.btnClickMe.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btnClickMe_MouseMove);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 17);
+            this.label1.TabIndex = 1;
+            // 
             // ThirdForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(571, 377);
+            this.ClientSize = new System.Drawing.Size(571, 542);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnClickMe);
             this.Name = "ThirdForm";
             this.Text = "ThirdForm";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button btnClickMe;
+        private System.Windows.Forms.Label label1;
     }
 }

@@ -15,6 +15,8 @@ namespace TAP_Intro
         public ThirdForm()
         {
             InitializeComponent();
+            //Deshabilitar el icono
+            this.ShowIcon = false;
         }
 
         private void btnClickMe_MouseMove(object sender, MouseEventArgs e)
@@ -27,10 +29,11 @@ namespace TAP_Intro
             coordenadaX = randomX.Next(0, ClientSize.Width);
             coordenadaY = randomY.Next(0, ClientSize.Height);
 
+            string res;
+            res = string.Format("x:{0} y:{1} ex:{2} ey:{3}", coordenadaX, coordenadaY, e.X, e.Y);
+            label1.Text = res;
             //Mover el boton
             btnClickMe.Location = new Point(coordenadaX, coordenadaY);
-
-
         }
     }
 }
