@@ -33,8 +33,13 @@ namespace TAP_Intro
             btn1.Text = "Enviar";
             btn1.FlatStyle = FlatStyle.Flat;
             btn1.Location = new Point(350, 60);
+            //
             this.Controls.Add(txt1);
             this.Controls.Add(btn1);
+
+            //Asiciar el método al evento click del btn1
+            btn1.Click += new EventHandler(this.btnEnviarValores_Click);
+
         }
         public void hilop() {
             this.WindowState = FormWindowState.Normal;
@@ -141,6 +146,11 @@ namespace TAP_Intro
             {
                 secondForm.Hide();
             }
+        }
+
+        //Agregar un metodo para el evento click
+        private void btnEnviarValores_Click(object sender, EventArgs e) {
+            MessageBox.Show("Tiempo de ejecución");
         }
     }
 }
